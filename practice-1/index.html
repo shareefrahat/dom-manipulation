@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="newSection">
+
+    </section>
+    <article>
+        <h3>Blog List</h3>
+        <ul id="blog-list">
+            <li>blog list-1</li>
+            <li>blog list-2</li>
+            <li>blog list-3</li>
+            <li>blog list-4</li>
+        </ul>
+    </article>
+    <article class="myBlog">
+        <h3 id="first-header">My Blog-1</h3>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolorem debitis similique eum, accusamus
+            aspernatur deleniti fugiat quas tenetur voluptatum? </p>
+    </article>
+    <article>
+        <h3>My Blog-2</h3>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolorem debitis similique eum, accusamus
+            aspernatur deleniti fugiat quas tenetur voluptatum? </p>
+    </article>
+    <article>
+        <h3>My Blog-3</h3>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolorem debitis similique eum, accusamus
+            aspernatur deleniti fugiat quas tenetur voluptatum? </p>
+    </article>
+    <article class="myArticle">
+        <h3>My Blog-4</h3>
+        <p id=last-para> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque dolorem debitis similique eum,
+            accusamus
+            aspernatur deleniti fugiat quas tenetur voluptatum? </p>
+    </article>
+
+    <script>
+        const getParagraph = document.getElementsByTagName('p');
+        for (const paragraph of getParagraph) {
+            console.log(paragraph.innerText);
+        }
+        for (var i = 0; i < 5; i++) {
+            const header = "document.getElementsByTagName('h3')[i].style.color = 'blue'";
+        }
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

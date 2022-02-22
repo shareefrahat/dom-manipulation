@@ -1,0 +1,15 @@
+/* ------------------
+color customization 
+-------------------*/
+
+.bg-panda-primary {
+  background-color: #fceceb;
+}
+
+.btn-panda-primary {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff4b92 100%);
+  color: #fff;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
